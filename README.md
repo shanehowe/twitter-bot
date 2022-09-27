@@ -71,7 +71,7 @@ a way to only tweet at them once. I tried using the same logic as the function
 for tweeting at users who mentioned the bot in a tweet but the ``` since_id ``` parameter was not filtering the results properly.
 In the end the solution was pretty straight forward.
 
-```python
+```pseudo code
 Grab one tweet
     Compare tweets id
         if id does not = the id stored in file
