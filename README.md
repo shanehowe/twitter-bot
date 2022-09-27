@@ -56,7 +56,7 @@ Funny... right?
 ## Deployment
 
 Currently the bot has not been deployed. I am researching into hosting  the 
-python script on the clode. I am hoping to deploy the bot ASAP.
+python script on the cloud. I am hoping to deploy the bot ASAP.
 
 When I do be sure to tweet at it if you want to here a (bad) joke!
 
