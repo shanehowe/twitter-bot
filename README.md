@@ -7,7 +7,7 @@ The bot replies the any tweet it is mentioned it with a joke. The bot also repli
 
 ## Example Tweet Reply
 
-```python
+```tweet
 Hey Nackflås 🩳🔫, I see you are bored. Here is a joke for you:
 
 Where did you learn to make ice cream? Sunday school.
@@ -56,7 +56,7 @@ Funny... right?
 ## Deployment
 
 Currently the bot has not been deployed. I am researching into hosting  the 
-python script on the clode. I am hoping to deploy the bot ASAP.
+python script on the cloud. I am hoping to deploy the bot ASAP.
 
 When I do be sure to tweet at it if you want to here a (bad) joke!
 
@@ -71,7 +71,7 @@ a way to only tweet at them once. I tried using the same logic as the function
 for tweeting at users who mentioned the bot in a tweet but the ``` since_id ``` parameter was not filtering the results properly.
 In the end the solution was pretty straight forward.
 
-```python
+```pseudo code
 Grab one tweet
     Compare tweets id
         if id does not = the id stored in file
