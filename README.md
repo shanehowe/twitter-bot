@@ -7,7 +7,7 @@ The bot replies the any tweet it is mentioned it with a joke. The bot also repli
 
 ## Example Tweet Reply
 
-```python
+```tweet
 Hey Nackflås 🩳🔫, I see you are bored. Here is a joke for you:
 
 Where did you learn to make ice cream? Sunday school.
