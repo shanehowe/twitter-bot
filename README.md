@@ -2,13 +2,13 @@
 # The Bad Joke Twitter Bot
 
 A twitter bot created using the twitter API and the Python libbrary tweepy.
-The bot replies the any tweet it is mentioned it with a joke. The bot also replies to tweets contained "#imbored".
+The bot replies the any tweet it is mentioned it with a joke. The bot also tweets an hourly joke!.
 
 
 ## Example Tweet Reply
 
 ```tweet
-Hey Nackflås 🩳🔫, I see you are bored. Here is a joke for you:
+Thanks for the mention! Here's a joke for you.
 
 Where did you learn to make ice cream? Sunday school.
 
@@ -59,26 +59,6 @@ Currently the bot has not been deployed. I am researching into hosting  the
 python script on the cloud. I am hoping to deploy the bot ASAP.
 
 When I do be sure to tweet at it if you want to here a (bad) joke!
-
-
-
-## Lessons Learned
-
-The biggest challenge for me during the project was
-the process of tweeting at tweets containing a certain hashtag.
-Now finding the tweets wasnt the hard part. It was finding
-a way to only tweet at them once. I tried using the same logic as the function
-for tweeting at users who mentioned the bot in a tweet but the ``` since_id ``` parameter was not filtering the results properly.
-In the end the solution was pretty straight forward.
-
-```pseudo code
-Grab one tweet
-    Compare tweets id
-        if id does not = the id stored in file
-            tweet
-            store new id in file
-```
-Maybe in the future I will figure out a better way but for now it does what I wasnt.
 
 
 ## Possible Future Additions
