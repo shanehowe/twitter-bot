@@ -88,19 +88,19 @@ def reply_to_mentions() -> None:
         return
 
     for tweet in reversed(tweets):
-        last_seen = tweet.id
-        print(f"{tweet.id} | {tweet.user.name} said {tweet.text}")
-        print("Replying to tweet!")
-        api.update_status(
-            status=reply,
-            in_reply_to_status_id=tweet.id,
-            auto_populate_reply_metadata=True,
-        )
-        api.create_favorite(tweet.id)
-        api.retweet(tweet.id)
-
-    # Update last seen ID after replying to tweets
-    update_last_seen(MENTIONS_FILE_NAME, last_seen)
+        if "#tellmeajoke" in tweet.text.lower():
+            last_seen = tweet.id
+            print(f"{tweet.id} | {tweet.user.name} said {tweet.text}")
+            print("Replying to tweet!")
+            api.update_status(
+                status=reply,
+                in_reply_to_status_id=tweet.id,
+                auto_populate_reply_metadata=True,
+            )
+            api.create_favorite(tweet.id)
+            api.retweet(tweet.id)
+            # Update last seen ID after replying to tweets
+            update_last_seen(MENTIONS_FILE_NAME, last_seen)
 
 
 def reply_to_hashtag() -> None:
