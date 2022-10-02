@@ -56,7 +56,7 @@ Funny... right?
  Simple but effective.
 ## Deployment
 
-The Bot has been deployed. It is running on repl.it. Be sure to check it out!
+🚀🚀 The Bot has been deployed. It is running on repl.it. Be sure to check it out! 🚀🚀
 
 
 
