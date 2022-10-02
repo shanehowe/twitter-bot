@@ -1,6 +1,5 @@
 import tweepy
 import time
-import requests
 from dotenv import dotenv_values
 from bot import get_joke
 
@@ -23,7 +22,9 @@ api = tweepy.API(auth)
 
 def main():
     while True:
+        print("Tweeting a joke...")
         tweet_joke()
+        print("Sleeping for an hour...")
         time.sleep(TIME)
 
 
