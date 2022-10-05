@@ -3,7 +3,8 @@
 
 A twitter bot created using the twitter API and the Python libbrary tweepy.
 The bot replies the any tweet it is mentioned it with a joke. The bot also tweets an hourly joke!.
-Username: @BadJokeBot1
+
+🤖  Username: @BadJokeBot1  🤖
 Mention the bot in a tweet containing #tellmeajoke and it will reply with a joke!
 
 ## Example Tweet Reply
