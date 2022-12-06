@@ -16,7 +16,7 @@ Where did you learn to make ice cream? Sunday school.
 
 What do you think? 🤖
 ```
-Funny... right? 
+Funny...
 
 
 
@@ -54,18 +54,3 @@ Funny... right?
         f.write(str(id))
  ```
 
- Simple but effective.
-## Deployment
-
-🚀🚀 The Bot has been deployed. It is running on repl.it. Be sure to check it out! 🚀🚀
-
-
-
-## Possible Future Additions
-
-If the bot really caught traction and gained some followers/activity. 
-I was thinking of building out a Joke API. Allow users the submit their own jokes through a form which
-would be reviewed by me and if they are appropriate, the joke would be added to the API for the bot to use.
-
-It does sound like a lot of work but I think I would gain a lot of experiece in doing so. For
-now I am happy with where it is at.
